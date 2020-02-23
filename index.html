@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css">
+
+    <style>
+        body {
+            margin-top: 70px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h4 class="display-4 text-center">Weight Converter</h4>
+                <form class="form-group">
+                    <input id="lbPounds" type="number" class="form-control form-control-hg"
+                        placeholder="Enter Pounds....">
+                </form>
+                <div id="output">
+                    <div class="card mb-2">
+                        <div class="card-body bg-info">
+                            <h4>Grams:</h4>
+                            <div id="grmsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body bg-success">
+                            <h4>Kilo Grams:</h4>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body bg-danger">
+                            <h4>Ounce:</h4>
+                            <div id="ounceOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
